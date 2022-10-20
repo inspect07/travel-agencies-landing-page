@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Popins", sans-serif;
+  font-weight: normal;
+}
+
+.video-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #14724b;
+  mix-blend-mode: overlay;
+  z-index: -1;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem;
+  align-items: center;
+}
+
+.header .logo {
+  font-weight: 800;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+
+.header .menu {
+  display: flex;
+  gap: 4rem;
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 2.5rem;
+  width: 60%;
+  display: flex;
+  height: 50vh;
+}
+
+.content .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.content .title {
+  font-size: 60px;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.content .sub-title {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.content .description {
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.content .explore {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  background: #fff;
+  color: black;
+  text-align: center;
+  width: 8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-top: 20px;
+}
